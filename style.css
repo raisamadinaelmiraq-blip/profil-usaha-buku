@@ -198,7 +198,7 @@ footer {
     border-top: 1px solid #333;
 }
 .card {
-    background-color: #a29e9e;
+    background-color: #ffc400;
     border-radius: 12px;
     padding: 25px;
     margin-bottom: 25px;
@@ -232,4 +232,5 @@ footer {
     border-radius: 20px;
     font-size: 0.8rem;
     margin-left: 10px;
+
 }
