@@ -1,0 +1,235 @@
+body {
+    background-color: #212121;
+    font-family: Georgia, sans-serif;
+    color: #fdfdfd;
+    margin: 0;
+}
+
+h1 {
+    color: #FFC400;
+    text-align: center;
+}
+
+h2{
+    color: #868181;
+    text-align: left;
+}
+
+p{
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:visited {
+    color: #ffffff;
+}
+nav a:hover {
+    color: #FFC400;
+}
+.daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.produk {
+    background-color: #fff9f9;
+    border: 1px solid #fdfdfd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.produk img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.produk h2 {
+    font-size: 20px;
+    color: #868181;
+}
+.produk h3 {
+    font-size: 16px;
+    color: #212121;
+}
+.harga {
+    font-weight: bold;
+    color: #ffc400;
+}
+.deskripsi {
+    font-size: 14px;
+    color: #555;
+}
+.artikel {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #868181;
+    font-family: 'georgia', serif;
+    line-height: 1.8;
+}
+.artikel .penulis {
+    font-style: italic;
+    color: #ffc400;
+    margin-bottom: 20px;
+}
+.artikel .sampul {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px rgba(181, 25, 25, 0.927);
+}
+.artikel blockquote {
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #ffc400;
+    color: #212121;
+    background-color: #fdfdfd;
+}
+.btn-kembali {
+    display: inline-block;
+    background-color: #f1c40f;
+    color: black;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn-kembali:hover {
+    background-color: #fdfdfd;
+}
+.formulir {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form button {
+    background-color: #ffc400;
+    color: #212121;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #fdfdfd;
+}
+.gambar-atas {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
+.contact-box {
+    background-color: #ffffff;
+    color: #333;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.contact-box h2 {
+    color: #d4af37;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.footer-action {
+    padding: 0 40px 40px;
+}
+
+footer {
+    padding: 20px 40px;
+    border-top: 1px solid #333;
+}
+.card {
+    background-color: #a29e9e;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #d7c3c3;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.event-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ffcc00;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.date-location {
+    font-size: 0.9rem;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    display: block;
+}
+.promo-badge {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
