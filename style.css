@@ -30,18 +30,40 @@ p{
     text-align: left;
     line-height: 1.5;
 }
-nav a {
-    color: #ffffff;
+nav{
+    background-color: #111;
+    padding: 12px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+}
+nav a{
+    color: white;
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
     transition: 0.3s;
+     position: relative;
 }
-nav a:visited {
-    color: #ffffff;
+
+nav a:hover{
+    color: #ffc400;
 }
-nav a:hover {
-    color: #FFC400;
+
+nav a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background: #ffc400;
+    transition: 0.3s;
+}
+
+nav a:hover::after{
+    width: 100%;
 }
 .daftar-produk {
     display: grid;
@@ -308,6 +330,7 @@ footer {
     font-size: 20px;
     color: white;
 }
+
 
 
 
