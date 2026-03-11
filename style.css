@@ -8,6 +8,16 @@ body {
 h1 {
     color: #FFC400;
     text-align: center;
+    margin-top: 30px;
+}
+
+h1::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #ffc400;
+    margin: 10px auto;
 }
 
 h2{
@@ -270,5 +280,6 @@ footer {
     color: #ffc400;
     font-size: 18px;
 }
+
 
 
