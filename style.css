@@ -146,7 +146,6 @@ form button:hover {
 .gambar-atas {
     width: 100%;
     height: auto;
-    object-fit: cover;
     display: block;
 }
 .contact-container {
@@ -234,4 +233,5 @@ footer {
     margin-left: 10px;
 
 }
+
 
