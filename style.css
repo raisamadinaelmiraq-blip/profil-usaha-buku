@@ -220,13 +220,41 @@ form button:hover {
     border-radius: 5px;
     box-sizing: border-box;
 }
-.footer-action {
-    padding: 0 40px 40px;
+.footer{
+    background-color: #111;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 50px;
 }
 
-footer {
-    padding: 20px 40px;
-    border-top: 1px solid #333;
+.footer h3{
+    color: #ffc400;
+    margin-bottom: 10px;
+}
+
+.footer p{
+    color: #ccc;
+}
+
+.social-icons{
+    margin: 20px 0;
+}
+
+.social-icons a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-icons a:hover{
+    color: #ffc400;
+}
+
+.copyright{
+    font-size: 14px;
+    color: #888;
 }
 .card {
     background-color: #ffc400;
@@ -330,6 +358,7 @@ footer {
     font-size: 20px;
     color: white;
 }
+
 
 
 
