@@ -233,5 +233,42 @@ footer {
     margin-left: 10px;
 
 }
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.welcome{
+    text-align: center;
+    color: #d6d6d6;
+    margin-bottom: 30px;
+}
+
+.kategori{
+    list-style: none;
+    padding: 0;
+}
+
+.kategori li{
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #ffc400;
+    border-radius: 8px;
+    line-height: 1.6;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.kategori li:hover{
+    transform: translateY(-5px);
+    background-color: #333;
+}
+
+.kategori strong{
+    color: #ffc400;
+    font-size: 18px;
+}
 
 
