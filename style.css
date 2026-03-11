@@ -313,6 +313,7 @@ form button:hover {
     border-left: 6px solid #ffc400;
     border-radius: 8px;
     transition: all 0.3s ease;
+    color: white;
 }
 
 .kategori li:hover{
@@ -359,6 +360,7 @@ form button:hover {
     font-size: 20px;
     color: white;
 }
+
 
 
 
