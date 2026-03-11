@@ -1,8 +1,8 @@
-body {
-    background-color: #212121;
-    font-family: Georgia, sans-serif;
-    color: #fdfdfd;
-    margin: 0;
+
+body{
+    background-color:#212121;
+    background-image: radial-gradient(#333 1px, transparent 1px);
+    background-size: 20px 20px;
 }
 
 h1 {
@@ -308,6 +308,7 @@ footer {
     font-size: 20px;
     color: white;
 }
+
 
 
 
